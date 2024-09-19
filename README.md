@@ -1,10 +1,10 @@
 # Learning About Linux
 
 ## Introduction
-This document offers an introduction to Linux, exploring its history, a variety of available distributions, and common basic commands.
+This document provides an introduction to Linux, exploring its history, a variety of available distributions, and common basic commands.
 
 ## Section 1: Linux History
-**Linux** is an open-source operating system created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 1991. Inspired by Unix, Torvalds aimed to provide a free alternative to the expensive, proprietary systems of the time. He released Linux under the GNU General Public License, allowing anyone to use, modify, and share the kernel and its associated code. Although Unix was a major influence and Linux drew comparisons to FreeBSD, another Unix-like system, Linux's flexible licensing model and the active contributions from its community led to its widespread adoption. It has since become a dominant force in servers, and mobile devices.
+**Linux** is an open-source operating system created by a Finnish computer science student, [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 1991. During that time, other operating systems were proprietary and expensive, so he wanted to create a free alternative. He released Linux under the GNU General Public License, allowing anyone to use, modify, and share the kernel and its associated code. Although Unix was a major influence and Linux drew comparisons to FreeBSD, another Unix-like system, Linux's flexible licensing model and the active contributions from its community led to its widespread adoption. As of this time, Linux has become widely used in servers and mobile devices.
 
 ## Section 2: Linux Distributions
 
@@ -20,7 +20,7 @@ These distributions are suited for advanced users, as they require a deep unders
 - [Gentoo](https://distrowatch.com/dwres.php?resource=major#gentoo)
 - [Slackware Linux](https://distrowatch.com/dwres.php?resource=major#slackware)
 
-Other popular linux distributions are:
+Betweent the above distributions, the following are other popular linux distributions that can either be used by beginners or advanced users:
 - [openSUSE](https://distrowatch.com/dwres.php?resource=major#opensuse)
 - [Fedora](https://distrowatch.com/dwres.php?resource=major#fedora)
 - [Debian GNU/Linux](https://distrowatch.com/dwres.php?resource=major#debian)
@@ -30,31 +30,41 @@ Other popular linux distributions are:
 
 ## Section 3: Basic Linux Commands
 
-Here are some commonly used Linux commands that are used for navigating, managing, and configuring a Linux system.
+The following are commonly used Linux commands that are used for navigating, managing, and configuring a Linux system.
 
 **File and Directory Management**
-- `ls` Lists files and directories.
-- `cd` Changes the current directory.
-- `pwd` Displays the current directory path.
-- `cp` Copies files or directories.
-- `mv` Moves or renames files and directories.
-- `rm` Removes files or directories.
-- `mkdir` Creates a new directory.
-- `touch` Creates an empty file.
+- `ls` Lists directory contents
+- `cd` Changes the current directory
+- `pwd` Returns working directory name
+- `cp` Copies files or directories
+- `mv` Moves or renames files and directories
+- `rm` Removes files or directories
+- `mkdir` Creates a new directory
+- `touch` Creates an empty file
+- `cat` Views the contents of a file
 
 **Permissions and Privileges**
-- `chmod` Changes file permissions.
-- `sudo` Runs commands with administrative privileges.
+- `chmod` Changes file permissions
+- `chown` Changes file ownership
+- `sudo` Runs commands with administrative privileges
+
+**File Comparession and Archiving**
+- `tar` Creates or extracts archive files
+- `zip` Creates compressed zip archives
 
 **Package Management**
-- `apt-get` Manages software packages (for Debian-based systems).
+- `apt-get` Manages software packages (for Debian-based systems)
 
 **Search and System Monitoring**
-- `grep` Searches text using patterns.
-- `top` Displays system processes in real time.
+- `grep` Searches text using patterns
+- `top` Displays system processes in real time
+- `ps` Displays running processes
+- `kill` Terminates a process
 
-**Disk and File System Information**
-- `df` Shows disk space usage.
+**Networks**
+- `ssh` Securely connects to a remote server
+- `scp` Securely copies files between hosts
+- `wget` Download files from the web
 
 
 ## Conclusion
