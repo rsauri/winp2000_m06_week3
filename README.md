@@ -33,7 +33,7 @@ Other popular linux distributions are:
 Here are some commonly used Linux commands that are used for navigating, managing, and configuring a Linux system.
 
 **File and Directory Management**
--`ls` Lists files and directories.
+- `ls` Lists files and directories.
 - `cd` Changes the current directory.
 - `pwd` Displays the current directory path.
 - `cp` Copies files or directories.
