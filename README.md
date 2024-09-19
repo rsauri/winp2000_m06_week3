@@ -3,10 +3,10 @@
 ## Introduction
 This document offers an introduction to Linux, exploring its history, a variety of available distributions, and common basic commands.
 
-## Section 1: Linux History:
+## Section 1: Linux History
 **Linux** is an open-source operating system created by [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds) in 1991. Inspired by Unix, Torvalds aimed to provide a free alternative to the expensive, proprietary systems of the time. He released Linux under the GNU General Public License, allowing anyone to use, modify, and share the kernel and its associated code. Although Unix was a major influence and Linux drew comparisons to FreeBSD, another Unix-like system, Linux's flexible licensing model and the active contributions from its community led to its widespread adoption. It has since become a dominant force in servers, and mobile devices.
 
-## Section 2: Linux Distributions:
+## Section 2: Linux Distributions
 
 **Linux distributions**, or **distros**, are versions of the Linux OS packaged with software and tools. They are important because they offer tailored solutions for different needs.
 
@@ -28,7 +28,7 @@ Other popular linux distributions are:
 
 ***Reference:*** https://distrowatch.com/dwres.php?resource=major
 
-## Section 3: Basic Linux Commands:
+## Section 3: Basic Linux Commands
 
 Here are some commonly used Linux commands that are used for navigating, managing, and configuring a Linux system.
 
@@ -42,21 +42,21 @@ Here are some commonly used Linux commands that are used for navigating, managin
 - `mkdir` Creates a new directory.
 - `touch` Creates an empty file.
 
-**Permissions and Privileges:**
+**Permissions and Privileges**
 - `chmod` Changes file permissions.
 - `sudo` Runs commands with administrative privileges.
 
-**Package Management:**
+**Package Management**
 - `apt-get` Manages software packages (for Debian-based systems).
 
-**Search and System Monitoring:**
+**Search and System Monitoring**
 - `grep` Searches text using patterns.
 - `top` Displays system processes in real time.
 
-**Disk and File System Information:**
+**Disk and File System Information**
 - `df` Shows disk space usage.
 
 
-## Conclusion:
+## Conclusion
 Linux is a powerful and open-source operating system powerful that offers flexibility, security, and customization across different devices. It is continued to be a top choice for developers and enterprises.
 
